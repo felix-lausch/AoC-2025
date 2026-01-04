@@ -1,6 +1,6 @@
 class Day9 {
     public static void Solve() {
-        using var sr = File.OpenText("day9input.txt");
+        using var sr = File.OpenText("inputs/day9input.txt");
 
         var points = new List<Point>();
         var edges = new List<Edge>();

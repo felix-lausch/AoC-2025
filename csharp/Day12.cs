@@ -1,6 +1,6 @@
 class Day12 {
     public static void Solve() {
-        using var sr = File.OpenText("day12input.txt");
+        using var sr = File.OpenText("inputs/day12input.txt");
 
         var text = sr.ReadToEnd()!;
         var splitText = text.Split("\r\n\r");

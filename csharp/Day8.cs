@@ -1,7 +1,7 @@
 class Day8 {
     public static void Solve() {
 
-        using var sr = File.OpenText("day8input.txt");
+        using var sr = File.OpenText("inputs/day8input.txt");
 
         var coordinates = new List<Point>();
         var distances = new List<(double Dist, Point P1, Point P2)>();

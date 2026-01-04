@@ -1,6 +1,6 @@
 class Day4 {
     public static void Solve() {
-        using var sr = File.OpenText("input.txt");
+        using var sr = File.OpenText("inputs/input.txt");
 
         var grid = new List<char[]>();
 

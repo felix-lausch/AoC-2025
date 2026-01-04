@@ -1,7 +1,7 @@
 class Day3 {
     public static void Solve() {
 
-        using var sr = File.OpenText("day3input.txt");
+        using var sr = File.OpenText("inputs/day3input.txt");
 
         var result = 0L;
 

@@ -2,7 +2,7 @@ namespace aoc;
 
 class Day6 {
     static void Solve(string[] args) {
-        using var sr = File.OpenText("day6input.txt");
+        using var sr = File.OpenText("inputs/day6input.txt");
 
         var lines = new List<string>();
         var cols = -1;

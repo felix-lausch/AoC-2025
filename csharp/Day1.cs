@@ -1,6 +1,6 @@
 class Day1 {
     static void Solve() {
-        using var sr = File.OpenText("day1input.txt");
+        using var sr = File.OpenText("inputs/day1input.txt");
 
         var curr = 50;
         var result = 0;

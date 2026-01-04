@@ -1,7 +1,7 @@
 class Day2 {
     public static void Solve() {
 
-        using var sr = File.OpenText("day2input.txt");
+        using var sr = File.OpenText("inputs/day2input.txt");
 
         var line = sr.ReadLine()!;
         var splitLine = line.Split(',');

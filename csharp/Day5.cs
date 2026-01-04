@@ -1,6 +1,6 @@
 ﻿class Day5 {
     public static void Solve() {
-        using var sr = File.OpenText("day5input.txt");
+        using var sr = File.OpenText("inputs/day5input.txt");
 
         var freshIds = new List<LRange>();
         bool parsingFreshIds = true;

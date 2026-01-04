@@ -2,7 +2,7 @@
 
 class Day10 {
     public static void Solve() {
-        using var sr = File.OpenText("day10input.txt");
+        using var sr = File.OpenText("inputs/day10input.txt");
 
         var result = 0;
 
