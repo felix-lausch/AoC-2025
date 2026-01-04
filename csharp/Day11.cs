@@ -2,7 +2,7 @@ class Day11 {
     Dictionary<(string, bool, bool), long> memo = new();
 
     public void Solve() {
-        using var sr = File.OpenText("inputs/day11input.txt");
+        using var sr = File.OpenText("../inputs/day11input.txt");
 
         var devices = new Dictionary<string, string[]>();
 
